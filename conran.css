@@ -1,0 +1,43 @@
+h1 {
+  margin-bottom: 100px;
+  padding-left: 20px;
+}
+ul {
+  list-style-type: none;
+  font-family: "Noto Sans CJK kr";
+}
+li img {
+  margin-bottom: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.bold {
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 3px;
+}
+.lightgrey {
+  font-weight: 200;
+  font-size: 12px;
+  color: grey;
+  margin-bottom: 5px;
+}
+.price {
+  font-weight: 400;
+  font-size: 14px;
+}
+.colorchip {
+  margin-top: 7px;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+@media(max-width: 660px) {
+  #grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
